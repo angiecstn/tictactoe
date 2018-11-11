@@ -3,8 +3,7 @@ import Square from './Square';
 
 class Board extends Component {
     renderSquare(i) {
-        console.log(i);
-        return <Square />;
+        return <Square value={i} />;
     }
 
     render() {
